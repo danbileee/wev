@@ -3,8 +3,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "declarationDir": "dist/types",
-    "downlevelIteration": true,
-    "types": ["node"]
+    "downlevelIteration": true
   },
-  "include": ["src"]
+  "include": ["src", "test/test.js"]
 }

@@ -8,5 +8,5 @@ const DateFormats = {
 export type DateFormat = keyof typeof DateFormats;
 
 export default function formatDate(date: Date, dateFormat: DateFormat) {
-  return format(date, dateFormat);
+  return format(date, DateFormats[dateFormat]);
 }
