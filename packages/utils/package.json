@@ -12,13 +12,6 @@
     "url": "git+https://github.com/danbileee/wev.git",
     "directory": "packages/utils"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com",
-    "main": "dist/index.js",
-    "module": "dist/index.esm.js",
-    "typings": "dist/types/index.d.ts"
-  },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
     "prebuild": "rm -rf dist",
