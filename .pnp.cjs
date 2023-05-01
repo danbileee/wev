@@ -2825,9 +2825,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:29.5.1"],\
             ["@types/node", "npm:18.16.3"],\
             ["babel-jest", "virtual:9d59ba93a699e7cccd5f2df218111d6f6cee16721e7c2639b066862f910665407756531d629ce94cbce0bf22b00a285997a2e3f1e2b9cdc98ebcc0c64cb5dac1#npm:29.5.0"],\
-            ["date-fns", "npm:2.30.0"],\
             ["jest", "virtual:9d59ba93a699e7cccd5f2df218111d6f6cee16721e7c2639b066862f910665407756531d629ce94cbce0bf22b00a285997a2e3f1e2b9cdc98ebcc0c64cb5dac1#npm:29.5.0"],\
-            ["lodash-es", "npm:4.17.21"],\
             ["rollup", "npm:3.21.2"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
@@ -4810,16 +4808,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/damerau-levenshtein-npm-1.0.8-bda7311c69-d240b77575.zip/node_modules/damerau-levenshtein/",\
           "packageDependencies": [\
             ["damerau-levenshtein", "npm:1.0.8"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["date-fns", [\
-        ["npm:2.30.0", {\
-          "packageLocation": "./.yarn/cache/date-fns-npm-2.30.0-895c790e0f-f7be015232.zip/node_modules/date-fns/",\
-          "packageDependencies": [\
-            ["date-fns", "npm:2.30.0"],\
-            ["@babel/runtime", "npm:7.21.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7732,15 +7720,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
           "packageDependencies": [\
             ["lodash", "npm:4.17.21"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["lodash-es", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-es-npm-4.17.21-b45832dfce-05cbffad6e.zip/node_modules/lodash-es/",\
-          "packageDependencies": [\
-            ["lodash-es", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
         }]\
