@@ -31,32 +31,3 @@ jobs:
         if: always()
         run: |
           rm .npmrc
-
-  publish-github-registry:
-    needs: publish-npm-registry
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 16
-          cache: yarn
-
-      - run: yarn install --immutable --inline-builds --immutable-cache --check-cache
-      - run: yarn build:all
-      - run: yarn test:all
-
-      - name: Create .npmrc
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          echo "@danbileee:registry=https://npm.pkg.github.com/" > .npmrc
-          echo "//npm.pkg.github.com/:_authToken=${GH_TOKEN}" >> .npmrc
-
-      - run: yarn publish:all
-            
-      - name: Delete .npmrc
-        if: always()
-        run: |
-          rm .npmrc
-
