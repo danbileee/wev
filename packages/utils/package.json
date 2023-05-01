@@ -1,6 +1,6 @@
 {
   "name": "@danbileee/utils",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "utils with simple i/o",
   "sideEffects": false,
   "typings": "dist/types/index.d.ts",
