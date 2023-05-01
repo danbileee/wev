@@ -4,10 +4,10 @@
   "repository": "https://github.com/danbileee/wev",
   "author": "Danbi Lee <hello@danbileee.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build:all": "yarn workspaces foreach -pt run build",
     "test:all": "yarn workspaces foreach -pt run test",
+    "release:all": "yarn workspaces foreach -pt run release",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "workspaces": [

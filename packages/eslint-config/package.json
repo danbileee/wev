@@ -1,14 +1,25 @@
 {
-  "name": "@wev/eslint-config",
-  "version": "0.0.1",
+  "name": "@danbileee/eslint-config",
+  "version": "0.0.3",
   "description": "shared lint config",
   "license": "MIT",
   "sideEffects": false,
   "main": "src/index.js",
   "packageManager": "yarn@3.5.0",
   "scripts": {
-    "lint": "eslint --ext .js"
+    "lint": "eslint --ext .js",
+    "release": "npm publish"
   },
+  "publishConfig": {
+    "access": "public",
+    "main": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbileee/wev.git",
+    "directory": "packages/eslint-config"
+  },
+  "author": "Danbi Lee<hello@danbileee.com>",
   "peerDependencies": {
     "@next/eslint-plugin-next": "^13.3.0",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
