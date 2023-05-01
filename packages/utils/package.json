@@ -16,7 +16,6 @@
     "lint": "eslint . --ext .ts,.tsx",
     "prebuild": "rm -rf dist",
     "build": "rm -rf dist && tsc",
-    "publish": "npm publish",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },
