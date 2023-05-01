@@ -1480,6 +1480,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@danbileee/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@danbileee/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@next/eslint-plugin-next": ^13.3.0
+    "@typescript-eslint/eslint-plugin": ^5.59.0
+    "@typescript-eslint/parser": ^5.59.0
+    eslint: ^8.38.0
+    eslint-config-airbnb: ^19.0.4
+    eslint-config-next: ^13.3.0
+    eslint-config-prettier: ^8.8.0
+    eslint-config-react-app: ^7.0.1
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-jsx-a11y: ^6.7.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    eslint-plugin-react-hooks: ^4.6.0
+    prettier: ^2.8.7
+  peerDependencies:
+    "@next/eslint-plugin-next": ^13.3.0
+    "@typescript-eslint/eslint-plugin": ^5.59.0
+    "@typescript-eslint/parser": ^5.59.0
+    eslint: ^8.38.0
+    eslint-config-airbnb: ^19.0.4
+    eslint-config-next: ^13.3.0
+    eslint-config-prettier: ^8.8.0
+    eslint-config-react-app: ^7.0.1
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-jsx-a11y: ^6.7.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    eslint-plugin-react-hooks: ^4.6.0
+    prettier: ^2.8.7
+  languageName: unknown
+  linkType: soft
+
+"@danbileee/utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@danbileee/utils@workspace:packages/utils"
+  dependencies:
+    "@babel/core": ^7.21.4
+    "@babel/preset-env": ^7.21.4
+    "@babel/preset-typescript": ^7.21.4
+    "@types/jest": ^29.5.0
+    "@types/node": ^18.15.11
+    date-fns: ^2.29.3
+    jest: ^29.5.0
+    lodash-es: ^4.17.21
+    rollup: ^3.20.4
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@eslint-community/eslint-utils@npm:^4.2.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -2252,59 +2305,6 @@ __metadata:
   checksum: f98e399147310cad67de718a8a6336f053d46753bade380c89ddac3dd49512555c3f613636b255ce0b5e2b004654d1c167eb5e53fc8085148b637a5afc20cdd8
   languageName: node
   linkType: hard
-
-"@wevtoolkit/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@wevtoolkit/eslint-config@workspace:packages/eslint-config"
-  dependencies:
-    "@next/eslint-plugin-next": ^13.3.0
-    "@typescript-eslint/eslint-plugin": ^5.59.0
-    "@typescript-eslint/parser": ^5.59.0
-    eslint: ^8.38.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-next: ^13.3.0
-    eslint-config-prettier: ^8.8.0
-    eslint-config-react-app: ^7.0.1
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-jsx-a11y: ^6.7.1
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    eslint-plugin-react-hooks: ^4.6.0
-    prettier: ^2.8.7
-  peerDependencies:
-    "@next/eslint-plugin-next": ^13.3.0
-    "@typescript-eslint/eslint-plugin": ^5.59.0
-    "@typescript-eslint/parser": ^5.59.0
-    eslint: ^8.38.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-next: ^13.3.0
-    eslint-config-prettier: ^8.8.0
-    eslint-config-react-app: ^7.0.1
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-jsx-a11y: ^6.7.1
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    eslint-plugin-react-hooks: ^4.6.0
-    prettier: ^2.8.7
-  languageName: unknown
-  linkType: soft
-
-"@wevtoolkit/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@wevtoolkit/utils@workspace:packages/utils"
-  dependencies:
-    "@babel/core": ^7.21.4
-    "@babel/preset-env": ^7.21.4
-    "@babel/preset-typescript": ^7.21.4
-    "@types/jest": ^29.5.0
-    "@types/node": ^18.15.11
-    date-fns: ^2.29.3
-    jest: ^29.5.0
-    lodash-es: ^4.17.21
-    rollup: ^3.20.4
-    typescript: ^5.0.4
-  languageName: unknown
-  linkType: soft
 
 "abbrev@npm:^1.0.0":
   version: 1.1.1
@@ -6968,9 +6968,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wevtoolkit@workspace:.":
+"wev@workspace:.":
   version: 0.0.0-use.local
-  resolution: "wevtoolkit@workspace:."
+  resolution: "wev@workspace:."
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.58.0
     "@typescript-eslint/parser": ^5.58.0
