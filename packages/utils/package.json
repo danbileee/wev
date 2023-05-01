@@ -23,7 +23,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "prebuild": "rm -rf dist",
     "build": "rm -rf dist && tsc",
-    "publish": "npm publish --access public",
+    "publish": "npm publish --access public --otp 017827",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },
