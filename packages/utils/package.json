@@ -1,12 +1,17 @@
 {
-  "name": "@wev/utils",
+  "name": "@danbileee/utils",
   "version": "0.0.1",
-  "description": "utils taking charge of repetitive works with simple i/o.",
+  "description": "utils with simple i/o",
   "sideEffects": false,
   "typings": "dist/types/index.d.ts",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danbileee/wev.git",
+    "directory": "packages/utils"
+  },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
     "prebuild": "rm -rf ./dist",

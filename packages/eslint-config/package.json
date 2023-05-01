@@ -1,5 +1,5 @@
 {
-  "name": "@wev/eslint-config",
+  "name": "@danbileee/eslint-config",
   "version": "0.0.1",
   "description": "shared lint config",
   "license": "MIT",
@@ -8,6 +8,11 @@
   "packageManager": "yarn@3.5.0",
   "scripts": {
     "lint": "eslint --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danbileee/wev.git",
+    "directory": "packages/eslint-config"
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": "^13.3.0",
