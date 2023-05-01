@@ -1,6 +1,6 @@
 {
   "name": "@danbileee/utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "utils with simple i/o",
   "sideEffects": false,
   "typings": "dist/types/index.d.ts",
@@ -9,11 +9,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danbileee/wev.git",
+    "url": "git+https://github.com/danbileee/wev.git",
     "directory": "packages/utils"
   },
   "publishConfig": {
     "access": "public",
+    "registry": "https://npm.pkg.github.com",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/types/index.d.ts"
@@ -40,5 +41,10 @@
   "dependencies": {
     "date-fns": "^2.29.3",
     "lodash-es": "^4.17.21"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/danbileee/wev/issues"
+  },
+  "homepage": "https://github.com/danbileee/wev#readme",
+  "author": "Danbi Lee<hello@danbileee.com>"
 }
