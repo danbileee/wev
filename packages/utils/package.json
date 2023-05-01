@@ -2,6 +2,7 @@
   "name": "@wev/utils",
   "version": "0.0.1",
   "description": "utils taking charge of repetitive works with simple i/o.",
+  "sideEffects": false,
   "typings": "dist/types/index.d.ts",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
