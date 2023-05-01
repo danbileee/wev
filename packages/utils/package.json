@@ -21,8 +21,8 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
-    "prebuild": "rm -rf ./dist",
-    "build": "rm -rf ./dist && tsc",
+    "prebuild": "rm -rf dist",
+    "build": "rm -rf dist && tsc",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },
