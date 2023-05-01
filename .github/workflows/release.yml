@@ -25,7 +25,7 @@ jobs:
           echo "@danbileee:registry=https://registry.npmjs.org/" > .npmrc
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
 
-      - run: yarn publish:all
+      - run: yarn release:all
             
       - name: Delete .npmrc
         if: always()

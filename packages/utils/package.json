@@ -12,10 +12,17 @@
     "url": "git+https://github.com/danbileee/wev.git",
     "directory": "packages/utils"
   },
+  "publishConfig": {
+    "access": "public",
+    "typings": "dist/types/index.d.ts",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js"
+  },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
     "prebuild": "rm -rf dist",
     "build": "rm -rf dist && tsc",
+    "release": "npm publish",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },
