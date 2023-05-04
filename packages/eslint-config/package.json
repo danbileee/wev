@@ -1,6 +1,6 @@
 {
   "name": "@danbileee/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "shared lint config",
   "license": "MIT",
   "sideEffects": false,
