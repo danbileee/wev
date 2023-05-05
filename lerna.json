@@ -9,11 +9,9 @@
   "command": {
     "version": {
       "allowBranch": "feature/monorepo",
-      "conventionalCommits": true,
       "message": "chore(release): publish new version %v [skip ci]"
     },
     "publish": {
-      "fromGit": true,
       "graphType": "all"
     }
   }

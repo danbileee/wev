@@ -32,7 +32,7 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`npx lerna version --yes && npx lerna publish --yes`
+          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-git --yes`
           echo "DEPLOY_RESULT=$var" >> $GITHUB_ENV
             
       - name: Delete .npmrc
