@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6 (2023-05-05)
+
+
+### Bug Fixes
+
+* shell syntax ([72c8ab2](https://github.com/danbileee/wev/commit/72c8ab298e2db76782be0de0d655b03af699dfdd))
+
+
+
+
+
 ## 0.0.5 (2023-05-05)
 
 
