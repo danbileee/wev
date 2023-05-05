@@ -1,11 +1,10 @@
-name: release
+name: canary
 
 on:
-  push:
-    branches: feature/monorepo
+  workflow_dispatch:
 
 jobs:
-  publish-npm-registry:
+  publish-canary:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -32,7 +31,7 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-git --yes`
+          var=`npx lerna publish --canary --yes --preid canary`
           echo "DEPLOY_RESULT=$var" >> $GITHUB_ENV
             
       - name: Delete .npmrc

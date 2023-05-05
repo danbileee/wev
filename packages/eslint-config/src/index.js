@@ -8,10 +8,11 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:sonarjs/recommended',
     'airbnb',
     'next',
     'plugin:prettier/recommended',
-    'react-hooks',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -22,7 +23,7 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json'],
   },
-  plugins: ['react', 'react-hooks', '@typescript-eslint'],
+  plugins: ['react', 'react-hooks', '@typescript-eslint', 'sonarjs'],
   rules: {
     'no-console': 'off',
     'no-unused-vars': 'off',
@@ -42,5 +43,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-anonymous-default-export': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };

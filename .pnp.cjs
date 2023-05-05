@@ -2809,6 +2809,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:41528ceb9d60e03ee4369ae634fe7ee57cacaf0be2e3fd9fe8878ef5d64b95f21659680fb0e406b13d6ef4be41d0d5680bae3b908654422d400d9aed71ae423e#npm:4.2.1"],\
             ["eslint-plugin-react", "virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:4.6.0"],\
+            ["eslint-plugin-sonarjs", "virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:0.19.0"],\
             ["prettier", "npm:2.8.8"]\
           ],\
           "linkType": "SOFT"\
@@ -5770,6 +5771,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-db6deca69c/0/cache/eslint-plugin-react-hooks-npm-4.6.0-b429fac07f-23001801f1.zip/node_modules/eslint-plugin-react-hooks/",\
           "packageDependencies": [\
             ["eslint-plugin-react-hooks", "virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:4.6.0"],\
+            ["@types/eslint", null],\
+            ["eslint", "npm:8.39.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-plugin-sonarjs", [\
+        ["npm:0.19.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-sonarjs-npm-0.19.0-7c505a6801-893640583f.zip/node_modules/eslint-plugin-sonarjs/",\
+          "packageDependencies": [\
+            ["eslint-plugin-sonarjs", "npm:0.19.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:0.19.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-sonarjs-virtual-6882160594/0/cache/eslint-plugin-sonarjs-npm-0.19.0-7c505a6801-893640583f.zip/node_modules/eslint-plugin-sonarjs/",\
+          "packageDependencies": [\
+            ["eslint-plugin-sonarjs", "virtual:1a6668cb0931f21580bc700401da68d389c3cca813eb2cf0667d576fa201bca3fcbf6f9c8a6d84cc8977273c60c624c6e671fa376f81f9f007c54187e680605e#npm:0.19.0"],\
             ["@types/eslint", null],\
             ["eslint", "npm:8.39.0"]\
           ],\

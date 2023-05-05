@@ -1497,6 +1497,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-sonarjs: ^0.19.0
     prettier: ^2.8.7
   peerDependencies:
     "@next/eslint-plugin-next": ^13.3.0
@@ -1512,6 +1513,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-sonarjs: ^0.19.0
     prettier: ^2.8.7
   languageName: unknown
   linkType: soft
@@ -1523,8 +1525,8 @@ __metadata:
     "@babel/core": ^7.21.4
     "@babel/preset-env": ^7.21.4
     "@babel/preset-typescript": ^7.21.4
-    "@types/jest": ^29.5.0
-    "@types/node": ^18.15.11
+    "@types/jest": ^29.5.1
+    "@types/node": ^18.16.3
     babel-jest: ^29.5.0
     date-fns: ^2.29.3
     jest: ^29.5.0
@@ -2100,7 +2102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^29.5.0":
+"@types/jest@npm:^29.5.1":
   version: 29.5.1
   resolution: "@types/jest@npm:29.5.1"
   dependencies:
@@ -2124,7 +2126,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.15.11":
+"@types/node@npm:*, @types/node@npm:^18.16.3":
   version: 18.16.3
   resolution: "@types/node@npm:18.16.3"
   checksum: 816b39d45b05ebdc6f362b630970df3f6d82f71d418a2555353522f4eeeb078fa201de5299f02c09a09faa975e43b2745fe19c263d44069f87ddf37d6c37b717
@@ -3641,6 +3643,15 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: 2232b3b8945aa50b7773919c15cd96892acf35d2f82503667a79e2f55def90f728ed4f0e496f0f157acbe1bd4397c5615b676ae7428fe84488a544ca53feb944
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sonarjs@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "eslint-plugin-sonarjs@npm:0.19.0"
+  peerDependencies:
+    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: 893640583f62ce55584c6ddd481aa0fd6fa15fe0fffc32ac92b17f3fadde8eaf32414183bb80b612455212e9bb14400236398af6279ca04e8992f008e011926c
   languageName: node
   linkType: hard
 
