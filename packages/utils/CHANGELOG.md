@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6 (2023-05-05)
+
+
+### Bug Fixes
+
+* workflow script ([80d38c9](https://github.com/danbileee/wev/commit/80d38c9374b08426f3e1d42eb6412acb198788d9))
+
+
+
+
+
 ## 0.0.5 (2023-05-05)
 
 
