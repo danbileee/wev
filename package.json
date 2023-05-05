@@ -7,7 +7,6 @@
   "scripts": {
     "build:all": "yarn workspaces foreach -pt run build",
     "test:all": "yarn workspaces foreach -pt run test",
-    "release:all": "yarn workspaces foreach -pt run release",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "workspaces": [
@@ -20,6 +19,7 @@
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "lerna": "^6.6.2",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4"
   }

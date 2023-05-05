@@ -11,8 +11,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "typeRoots": ["node_modules/@types"],
-    "skipLibCheck": true,
-    "types": ["node", "@types/jest"]
+    "skipLibCheck": true
   },
   "include": ["./packages/**/*"],
   "exclude": ["**/dist/*", "**/esm/*"]

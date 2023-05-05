@@ -1,0 +1,21 @@
+{
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "yarn",
+  "publishConfig": {
+    "access": "@danbileee"
+  },
+  "ignoreChanges": ["**/*.md"],
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "message": "chore(release): publish new version %v [skip ci]",
+      "registry": "https://npm.pkg.github.com/"
+    },
+    "publish": {
+      "fromGit": true,
+      "graphType": "all"
+    }
+  }
+}

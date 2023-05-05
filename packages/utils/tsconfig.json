@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "./dist",
     "declarationDir": "dist/types",
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "types": ["node", "@types/jest"]
   },
-  "include": ["src", "test/test.js"]
+  "include": ["src", "test"]
 }

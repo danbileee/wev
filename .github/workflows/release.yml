@@ -25,9 +25,14 @@ jobs:
           echo "@danbileee:registry=https://registry.npmjs.org/" > .npmrc
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
 
-      - run: yarn release:all
+      - name: Deploy
+        run: |
+          var=`yarn lerna version --yes && yarn lerna publish --yes`
+          echo "DEPLOY_RESULt=$var" >> $GITHUB_ENV
             
       - name: Delete .npmrc
         if: always()
         run: |
           rm .npmrc
+
+      - run: echo "$DEPLOY_RESULT"
