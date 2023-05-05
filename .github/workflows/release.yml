@@ -14,6 +14,11 @@ jobs:
           node-version: 16
           cache: yarn
 
+      - name: Set Git User
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
       - run: yarn install --immutable --inline-builds --immutable-cache --check-cache
       - run: yarn build:all
       - run: yarn test:all
@@ -27,8 +32,8 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`yarn lerna version --yes && yarn lerna publish --yes`
-          echo "DEPLOY_RESULt=$var" >> $GITHUB_ENV
+          var=`npx lerna version --yes && npx lerna publish --yes`
+          echo "DEPLOY_RESULT=$var" >> $GITHUB_ENV
             
       - name: Delete .npmrc
         if: always()

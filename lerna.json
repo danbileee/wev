@@ -8,10 +8,9 @@
   "ignoreChanges": ["**/*.md"],
   "command": {
     "version": {
-      "allowBranch": "main",
+      "allowBranch": "feature/monorepo",
       "conventionalCommits": true,
-      "message": "chore(release): publish new version %v [skip ci]",
-      "registry": "https://npm.pkg.github.com/"
+      "message": "chore(release): publish new version %v [skip ci]"
     },
     "publish": {
       "fromGit": true,
