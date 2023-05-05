@@ -32,8 +32,10 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-git --yes`
-          echo "DEPLOY_RESULT<<$var" >> $GITHUB_ENV
+          var=`npx lerna version --conventional-commits --yes && npx lerna publish --yes`
+          echo $var > foo.txt
+          val=$( cat foo.txt )
+          echo "DEPLOY_RESULT=$val" >> $GITHUB_ENV
             
       - name: Delete .npmrc
         if: always()

@@ -32,7 +32,9 @@ jobs:
       - name: Deploy
         run: |
           var=`npx lerna publish --canary --yes --preid canary`
-          echo "DEPLOY_RESULT<<$var" >> $GITHUB_ENV
+          echo $var > foo.txt
+          val=$( cat foo.txt )
+          echo "DEPLOY_RESULT=$val" >> $GITHUB_ENV
             
       - name: Delete .npmrc
         if: always()
