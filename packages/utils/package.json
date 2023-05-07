@@ -1,6 +1,6 @@
 {
   "name": "@danbileee/utils",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "utils with simple i/o",
   "sideEffects": false,
   "type": "module",
