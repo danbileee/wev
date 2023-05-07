@@ -8,7 +8,7 @@
   "command": {
     "version": {
       "allowBranch": "feature/monorepo",
-      "message": "chore(release): publish %s [skip ci]"
+      "message": "chore(release): npm publish [skip ci]"
     },
     "publish": {
       "graphType": "all"
