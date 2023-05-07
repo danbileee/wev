@@ -1,7 +1,7 @@
-const baseConfig = require('../../jest.config');
-const pkg = require('./package.json');
+import baseConfig from '../../jest.config.js';
+import pkg from './package.json' assert { type: 'json' };
 
-module.exports = {
+export default {
   ...baseConfig,
   displayName: {
     name: `${pkg.name}`,

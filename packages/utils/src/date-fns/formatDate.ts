@@ -1,4 +1,4 @@
-import { format, isFirstDayOfMonth } from 'date-fns';
+import { format } from 'date-fns';
 
 const DateFormats = {
   KO: 'yyyy/MM/dd',
