@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/danbileee/wev/compare/@danbileee/utils@0.1.0...@danbileee/utils@0.1.1) (2023-05-07)
+
+
+### Bug Fixes
+
+* lerna publish option ([6fef278](https://github.com/danbileee/wev/commit/6fef2786540f650fc0718089f9e49ffe102ec514))
+
+
+
+
+
 # [0.1.0](https://github.com/danbileee/wev/compare/@danbileee/utils@0.0.5...@danbileee/utils@0.1.0) (2023-05-07)
 
 
