@@ -24,7 +24,10 @@ function buildJS(input, output, format) {
       file: output,
       format,
     },
-    plugins: [resolve({ extensions }), typescript({ tsconfigOverride: { exclude: ['test'] } })],
+    plugins: [
+      resolve({ extensions }),
+      typescript({ useTsconfigDeclarationDir: true, tsconfigOverride: { exclude: ['test'] } }),
+    ],
   };
 }
 
