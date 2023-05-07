@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/danbileee/wev/compare/@danbileee/utils@0.1.1...@danbileee/utils@0.1.2) (2023-05-07)
+
+
+### Bug Fixes
+
+* use type declaration dir ([f18b08c](https://github.com/danbileee/wev/commit/f18b08c418d7b6c20ff9036dc2a887920d348c23))
+
+
+
+
+
 ## [0.1.1](https://github.com/danbileee/wev/compare/@danbileee/utils@0.1.0...@danbileee/utils@0.1.1) (2023-05-07)
 
 
