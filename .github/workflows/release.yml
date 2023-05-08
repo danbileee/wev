@@ -2,7 +2,7 @@ name: release
 
 on:
   push:
-    branches: feature/monorepo
+    branches: main
 
 jobs:
   publish-npm-registry:
