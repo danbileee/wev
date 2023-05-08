@@ -2,7 +2,7 @@ name: release
 
 on:
   push:
-    branches: feature/monorepo
+    branches: main
 
 jobs:
   publish-npm-registry:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-package --yes`
+          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-git --yes`
           echo $var > foo.txt
           val=$( cat foo.txt )
           echo "DEPLOY_RESULT=$val" >> $GITHUB_ENV

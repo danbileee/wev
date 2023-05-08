@@ -7,7 +7,7 @@
   "ignoreChanges": ["**/*.md"],
   "command": {
     "version": {
-      "allowBranch": "feature/monorepo",
+      "allowBranch": "main",
       "message": "chore(release): npm publish [skip ci]"
     },
     "publish": {
