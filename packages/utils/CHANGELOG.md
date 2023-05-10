@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.4 (2023-05-10)
+
+
+### Bug Fixes
+
+* include merged tag ([#7](https://github.com/danbileee/wev/issues/7)) ([d7a8a8d](https://github.com/danbileee/wev/commit/d7a8a8d5a7962484a85ebba4730c42a67588a85e))
+
+
+
+
+
 ## 0.1.3 (2023-05-08)
 
 **Note:** Version bump only for package @danbileee/utils
