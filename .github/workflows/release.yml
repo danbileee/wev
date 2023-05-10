@@ -36,7 +36,7 @@ jobs:
 
       - name: Deploy
         run: |
-          var=`npx lerna version --conventional-commits --yes && npx lerna publish from-git --yes`
+          var=`npx lerna version --include-merged-tags --conventional-commits --yes && npx lerna publish from-git --yes`
           echo $var > foo.txt
           val=$( cat foo.txt )
           echo "DEPLOY_RESULT=$val" >> $GITHUB_ENV
