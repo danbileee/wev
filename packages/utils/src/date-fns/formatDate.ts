@@ -3,6 +3,8 @@ import { format } from 'date-fns';
 const DateFormats = {
   SLASH_KO: 'yyyy/MM/dd',
   SLASH_EN: 'MM/dd/yyyy',
+  DOT_KO: 'yyyy.MM.dd',
+  DOT_EN: 'MM.dd.yyyy',
   NO_DELIMITER_8: 'yyyyMMdd',
   NO_DELIMITER_6: 'yyMMdd',
 } as const;
