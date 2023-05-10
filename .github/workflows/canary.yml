@@ -16,8 +16,9 @@ jobs:
           node-version: 16
           cache: yarn
 
-      - name: Set Git User
+      - name: Get git tags and set user
         run: |
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 

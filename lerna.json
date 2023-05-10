@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "@danbileee"
   },
-  "ignoreChanges": ["**/*.md", "package.json"],
+  "ignoreChanges": ["**/*.md"],
   "command": {
     "version": {
       "allowBranch": "main",
