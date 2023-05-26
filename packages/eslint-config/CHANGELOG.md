@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.13](https://github.com/danbileee/wev/compare/@danbileee/eslint-config@0.0.12...@danbileee/eslint-config@0.0.13) (2023-05-26)
+
+
+### Bug Fixes
+
+* turn off jsx rule ([#13](https://github.com/danbileee/wev/issues/13)) ([b059289](https://github.com/danbileee/wev/commit/b0592898f36f7e9efffcb8ff94937ad7387698bf))
+
+
+
+
+
 ## [0.0.12](https://github.com/danbileee/wev/compare/@danbileee/eslint-config@0.0.11...@danbileee/eslint-config@0.0.12) (2023-05-26)
 
 
