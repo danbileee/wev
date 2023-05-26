@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/danbileee/wev/compare/@danbileee/eslint-config@0.0.10...@danbileee/eslint-config@0.0.11) (2023-05-26)
+
+
+### Bug Fixes
+
+* remove next dependency ([#11](https://github.com/danbileee/wev/issues/11)) ([14e39b7](https://github.com/danbileee/wev/commit/14e39b7377722ad518090618e4f457a73c858550))
+
+
+
+
+
 ## 0.0.10 (2023-05-10)
 
 **Note:** Version bump only for package @danbileee/eslint-config
