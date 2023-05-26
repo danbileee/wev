@@ -11,7 +11,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:sonarjs/recommended',
     'airbnb',
-    'next',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
