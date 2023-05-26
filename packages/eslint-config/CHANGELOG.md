@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.12](https://github.com/danbileee/wev/compare/@danbileee/eslint-config@0.0.11...@danbileee/eslint-config@0.0.12) (2023-05-26)
+
+
+### Bug Fixes
+
+* add react jsx runtime plugin ([#12](https://github.com/danbileee/wev/issues/12)) ([627baa3](https://github.com/danbileee/wev/commit/627baa34a44543135a8669c3be49dcd3654f33df))
+
+
+
+
+
 ## [0.0.11](https://github.com/danbileee/wev/compare/@danbileee/eslint-config@0.0.10...@danbileee/eslint-config@0.0.11) (2023-05-26)
 
 
