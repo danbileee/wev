@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2025-02-26)
+
+
+### Features
+
+* update dependencies in eslint-config package ([79bc836](https://github.com/danbileee/wev/commit/79bc83636811b5c025d4f737e6667177e684e529))
+
+
+
+
+
 ## 0.1.4 (2023-05-10)
 
 
