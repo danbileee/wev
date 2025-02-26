@@ -11,8 +11,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "typeRoots": ["node_modules/@types"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wev/*": ["packages/*/src"]
+    }
   },
   "include": ["./packages/**/*"],
-  "exclude": ["**/dist/*", "**/esm/*"]
+  "exclude": ["**/dist/*", "**/esm/*", "node_modules"]
 }
