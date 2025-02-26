@@ -2785,6 +2785,7 @@ __metadata:
     eslint-plugin-react: ^7.37.2
     eslint-plugin-react-hooks: ^5.0.0
     eslint-plugin-sonarjs: ^3.0.0
+    globals: ^15.14.0
     prettier: ^3.4.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.17.0
@@ -2799,6 +2800,7 @@ __metadata:
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-sonarjs: ^0.19.0
+    globals: ^15.14.0
     prettier: ^3.4.1
   languageName: unknown
   linkType: soft
@@ -6290,6 +6292,13 @@ __metadata:
   version: 14.0.0
   resolution: "globals@npm:14.0.0"
   checksum: 534b8216736a5425737f59f6e6a5c7f386254560c9f41d24a9227d60ee3ad4a9e82c5b85def0e212e9d92162f83a92544be4c7fd4c902cb913736c10e08237ac
+  languageName: node
+  linkType: hard
+
+"globals@npm:^15.14.0":
+  version: 15.15.0
+  resolution: "globals@npm:15.15.0"
+  checksum: a2a92199a112db00562a2f85eeef2a7e3943e171f7f7d9b17dfa9231e35fd612588f3c199d1509ab1757273467e413b08c80424cf6e399e96acdaf93deb3ee88
   languageName: node
   linkType: hard
 
